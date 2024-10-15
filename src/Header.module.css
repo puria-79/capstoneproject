@@ -1,0 +1,15 @@
+.header {
+    display: grid;
+    grid-template: 
+    'header logo logo header';
+}
+
+.logo {
+    grid-area: logo;
+    
+}
+
+p {
+
+    grid-area: header;
+}
