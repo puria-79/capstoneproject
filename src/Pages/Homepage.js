@@ -5,10 +5,11 @@ import Footer from "../Components/Footer";
 export default function Homepage() {
     return (
         <>
-            <Header/>
-            <Nav/>
-            <Main/>
-            <Footer/>
+            <div className="max-w-screen-xl mx-auto">
+                <Header/>
+            </div>
+                <Main/>
+                <Footer/>
         </>
     );
 }
