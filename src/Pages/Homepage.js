@@ -1,7 +1,7 @@
-import Header from "../Header";
-import Nav from "../Nav";
-import Main from "../Main";
-import Footer from "../Footer";
+import Header from "../Components/Header"
+import Nav from "../Components/Nav";
+import Main from "../Components/Main";
+import Footer from "../Components/Footer";
 export default function Homepage() {
     return (
         <>
