@@ -12,7 +12,7 @@ export default function Main() {
                         <Link to="/reservation" className="inline bg-yellow text-3xl text-center font-bold rounded-xl p-2 px-10 self-center">Reserve a Table</Link>
                     </div>
                     <div>
-                        <img src={dish} className="rounded-xl w-96 relative right-20 top-20"/>
+                        <img src={dish} className="rounded-xl w-96 relative right-20 top-20 z-30"/>
                     </div>
                 </div>
             </div>
